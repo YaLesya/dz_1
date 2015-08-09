@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     
-    <title>Yavtushenko Lesya cv</title>
+    <title>Yavtushenko Lesya contacts</title>
     <meta name="description" content="portfolio YaLesya">
     <meta name="author" content="Yavtushenko Lesya">
 
@@ -67,9 +67,47 @@
         
       </aside>
 
-      <main class="">
-        
-        
+      <main class="main_cv">
+        <div class="block">
+          <div class="head_cont">
+            <h1 class="title_cont">У вас интересный проект? Напишите мне
+            </h1>
+          </div>
+          <form class="form" method="post" action="" >
+            <div class="form-group name">
+                        <label for="name" class="control-label">Имя<span>*</span></label>
+                         <div>
+                          <input type="text" name="name" class="form-control" placeholder="Как к Вам обращаться" id="inputName" required  qtip-content="Вы не ввели Имя">
+                        </div>
+            </div>
+            <div class="form-group email">
+                        <label for="email" class=" control-label" >Email<span>*</span></label>
+                        <div>
+                          <input type="email" class="form-control" pattern="[^@]+@[^@]+\.[a-zA-Z]{2,6}"placeholder="Куда мне писать" id="inputEmail" name="email" qtip-content="Вы не ввели Email" required>
+                        </div>
+            </div>
+            <div class="form-group letter">
+                          <label for="letter" class=" control-label">Сообщение</label>
+                          <div>
+                            <textarea class="form-control" placeholder="Кратко в чем суть" id="areaLetter" name="letter" wrap="soft" rows="12" required qtip-content="Что вы от меня хотите?"></textarea>    
+                          </div>
+            </div> 
+            
+              <div class="form-group captcha">
+                        <div class="form-control captcha_img">
+                          <img src="" alt="Captcha Image">
+                        </div>
+              </div>
+              <div class="form-group ">                        
+                          <div class="captcha2">
+                            <input type="text" class="form-control" placeholder="Введите код" id="inputCaptcha" required qtip-position="right" qtip-content="Вы не ввели код" name="captcha2">
+                          </div>
+              </div>
+          
+            <button type="submit" class="btn send_cont">Отправить</button>
+            <button type="reset" class="btn reset_cont">Очистить</button>
+          </form>
+        </div> <!--block-->        
       </main>
     </div>
     

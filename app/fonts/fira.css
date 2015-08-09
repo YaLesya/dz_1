@@ -120,30 +120,30 @@
 
 @font-face {
     font-family: 'fira_sanslight';
-    src: url('../fonts/firasans-light.eot');
-    src: url('../fonts/firasans-light.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/firasans-light.woff') format('woff'),
-         url('../fonts/firasans-light.ttf') format('truetype');
+    src: url('firasans-light.eot');
+    src: url('firasans-light.eot?#iefix') format('embedded-opentype'),
+         url('firasans-light.woff') format('woff'),
+         url('firasans-light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'fira_sanslight_italic';
-    src: url('../fonts/firasans-lightitalic.eot');
-    src: url('../fonts/firasans-lightitalic.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/firasans-lightitalic.woff') format('woff'),
-         url('../fonts/firasans-lightitalic.ttf') format('truetype');
+    src: url('firasans-lightitalic.eot');
+    src: url('firasans-lightitalic.eot?#iefix') format('embedded-opentype'),
+         url('firasans-lightitalic.woff') format('woff'),
+         url('firasans-lightitalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'fira_sansbook';
-    src: url('../fonts/firasans-book.eot');
-    src: url('../fonts/firasans-book.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/firasans-book.woff') format('woff'),
-         url('../fonts/firasans-book.ttf') format('truetype');
+    src: url('firasans-book.eot');
+    src: url('firasans-book.eot?#iefix') format('embedded-opentype'),
+         url('firasans-book.woff') format('woff'),
+         url('firasans-book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -180,10 +180,10 @@
 
 @font-face {
     font-family: 'fira_sansmedium';
-    src: url('../fonts/firasans-medium.eot');
-    src: url('../fonts/firasans-medium.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/firasans-medium.woff') format('woff'),
-         url('../fonts/firasans-medium.ttf') format('truetype');
+    src: url('firasans-medium.eot');
+    src: url('firasans-medium.eot?#iefix') format('embedded-opentype'),
+         url('firasans-medium.woff') format('woff'),
+         url('firasans-medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
