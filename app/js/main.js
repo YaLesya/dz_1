@@ -1,3 +1,3 @@
 $(document).ready(function() {
-	console.log('привет');
-});		
+	console.log('я на главной странице');
+});
