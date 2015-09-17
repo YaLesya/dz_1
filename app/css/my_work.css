@@ -1,0 +1,131 @@
+
+/*------------------------------------------*/
+/*     my-work
+/*------------------------------------------*/
+.main_work{
+  margin: 0 20px;
+  }
+.row {
+  margin: 0 auto 40px 7px;
+}
+.project{
+    display: inline-block;
+    width: 184px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 13px;
+    text-align: center;
+    vertical-align: top;
+    
+}
+.project .project-img{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #3ba8c0;
+  border-radius: 5px;
+}
+
+.project .hover-img{
+  width: 100%;
+  height: 130px;
+-webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+    border: solid 2px #3ba8c0;
+     border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+}
+.project:hover .hover-img{
+  background-color: rgb( 1, 108, 164);
+}
+.project:hover .project-img{
+  -moz-opacity: 0.20;
+  opacity:.20;
+  filter: alpha(opacity=20);
+}
+.project .zoom-wrapper{
+  position:absolute;
+  width: 100%;
+  top: 55px;
+  text-align: center;
+  transform: scale(0);
+  -webkit-transform: scale(0);
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+}
+.project .zoom-link {
+  font-family: 'fira_sansbook';
+  font-size: 12px;
+  border: solid 2px #eff3f7;
+  color: #eff3f7;
+  text-decoration: none;
+  border-radius: 5px; 
+  padding: 0 4px;
+}
+.project:hover .zoom-wrapper {  
+  transform: scale(1);
+  -webkit-transform: scale(1);
+}
+.project .project-link{
+  color: #3ba8c0;
+  font-family: 'fira_sanslight_italic';
+  font-size: 13px;
+  text-decoration: none;
+}
+.project .project-desc{
+  font-size: 15px;
+  margin: 5px 0;
+  line-height: 1.2;
+  display: block;
+  color: 4a545d;
+}
+/* Старый ei (для него пишем другую анимацию)*/
+.lt-ie9 .menu ul li{
+  border-bottom: none;
+}
+.lt-ie9 .menu ul li.current{
+  margin-top: 0;
+}
+.lt-ie9 .my-work .item .zoom-wrapper{
+  display: none;
+}
+.lt-ie9 .my-work .item:hover .zoom-wrapper {  
+  display: block;
+}
+.add-new-p{  
+  border: dashed 1px #3ba8c0;
+  border-radius: 5px;
+  height: 128px;
+  text-decoration: none;
+  background-color: #edf8fc;
+}
+.add-new-p .add-new-link{
+  background: url(../images/add-new.png) center 33px no-repeat; 
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #3ba8c0;
+  font-size: 13px;
+}
+.add-new-p .add-new-text{
+  position: absolute;
+  padding-top: 76px;
+  text-align: center;
+  width: 100%;
+}
+.add-new-p .add-new-link:hover{
+  text-decoration: underline;
+  color:black;
+}
+
+
+/* Прячем модальное окно */
+#new-progect-popup { 
+  display:none; 
+}
+
+
