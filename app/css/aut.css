@@ -1,0 +1,62 @@
+.wrapper_aut{
+	margin-bottom: 10%;
+
+}
+.aut {
+	width: 588px;
+	height: 488px;
+	margin: 0 auto;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #eff3f7;
+    box-shadow: 0 4px 7px rgba(0,0,0,.29);
+    text-align: center;
+}
+.aut_header{
+	background-color: #48cbe8;
+    border-bottom: 15px solid #67dffa;
+    color: #fff;
+    text-align: center;
+}
+.aut_title{
+	margin: 0;
+    font-size: 40px;
+    line-height: 1;
+    font-weight: 400;
+    padding: 26px 0;
+}
+.aut .modal-body{
+	padding: 16px 82px;
+	text-align: center;
+}
+.aut .form {
+	margin: 0 auto; 
+	padding: 0;
+}
+.aut .modal-title{
+	font-size: 40px;
+}
+.aut .form-group {
+	margin-bottom: 14px;
+	width: 425px;
+	color: #48cbe8;
+
+}
+.aut .form-control{
+	box-sizing:border-box;
+	font-size: 17px;
+	padding: 17px 12px;
+    font-weight: 300;
+    height: 60px;
+    line-height: 60px;
+
+}
+.aut .btn {
+	font-size: 31px;
+	height: 53px;
+	width: 225px;
+	margin-top: 20px;
+}
+.aut .label{
+	font-size: 35px;
+}

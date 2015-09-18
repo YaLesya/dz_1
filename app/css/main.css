@@ -121,10 +121,6 @@ a:hover {
   height: 80px;
   display: block;
 }
-.footer{
-  height: 80px;
-  margin-top: -80px;  
-}
 /*------------------------------------------*/
 /*       Header & Navigation
 /*------------------------------------------*/
@@ -409,8 +405,8 @@ a:hover {
 /*     Footer
 /*------------------------------------------*/
 .footer{
-  
-  background-color: #eff3f7;
+  height: 80px;
+  background-color: #eff3f7; 
 }
 .login {
   display: block;

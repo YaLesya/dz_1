@@ -7,7 +7,7 @@ var myModule = (function () {
 
 	// Прослушивает события 
 	var _setUpListners = function () {
-				$('#add-new-item').on('click', _showModal); // открыть модальное окно			
+				$('#add-new-p').on('click', _showModal); // открыть модальное окно			
 				$('#add-new-project').on('submit', _addProject); // добавление проекта		
 			};
 
